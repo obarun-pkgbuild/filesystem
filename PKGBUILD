@@ -5,14 +5,14 @@
 
 pkgname=filesystem
 pkgver=2017.09
-pkgrel=5
+pkgrel=6
 pkgdesc='Base Obarun filesystem'
 arch=(x86_64)
 license=('GPL')
 url='https://www.obarun.org'
 groups=('base')
 #install='filesystem.install'
-depends=('iana-etc' 'pacopts')
+depends=('iana-etc' 'applysys')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/issue' 'etc/ld.so.conf' 'etc/motd' 'etc/nsswitch.conf'
         'etc/passwd' 'etc/profile' 'etc/resolv.conf' 'etc/securetty'
