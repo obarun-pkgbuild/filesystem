@@ -1,8 +1,9 @@
 NAME="Obarun Linux"
+PRETTY_NAME="Obarun Linux"
 ID=obarun
-PRETTY_NAME="Obarun"
+ID_LIKE=obarun
 ANSI_COLOR="0;36"
-HOME_URL="http://www.obarun.org/"
-SUPPORT_URL="https://www.obarun.org/forum"
-BUG_REPORT_URL="https://www.obarun.org/forum"
+HOME_URL="https://web.obarun.org/"
+SUPPORT_URL="https://forum.obarun.org/"
+BUG_REPORT_URL="https://forum.obarun.org/"
 
