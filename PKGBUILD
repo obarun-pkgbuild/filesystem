@@ -5,7 +5,7 @@
 
 pkgname=filesystem
 pkgver=2017.09
-pkgrel=6
+pkgrel=7
 pkgdesc='Base Obarun filesystem'
 arch=(x86_64)
 license=('GPL')
@@ -23,7 +23,7 @@ source=('crypttab' 'fstab' 'group' 'gshadow' 'host.conf' 'hosts'
         'sysusers' 'tmpfiles' 'modprobe.d.usb-load-ehci-first')
 md5sums=('0672783048ee312d2fc768402fdb3488'
          '693c97f2c9a519bb97a17008e92c2b74'
-         '803da7c3c9df9b47a78b52fe9ddf02b1'
+         '26a96329a5523e5c11c50be58e6758c8'
          '822b75f0faca19a9c4cee334c63ab1b3'
          '7c944ff2ac3b4fc5e3c2f3e9aa1ed802'
          '4c8ed1804d6ff26714530dd43341b7a1'
@@ -39,7 +39,7 @@ md5sums=('0672783048ee312d2fc768402fdb3488'
          'f04bcb2803afc4dcb95670fe87343b4d'
          '1e867e07ad9a04f40fa9e5e4aa1f1624'
          'a53aedae9c5f6bcf624e3a23d85b3419'
-         '72f7eeb3c0270b97f634c8c3d45f6131'
+         'e0a0b6f1ef4f31d8c7b03ce751c45d75'
          '0267a3a463f35eec8a31f40a720dfd86'
          'a8a962370cd0128465d514e6a1f74130')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
