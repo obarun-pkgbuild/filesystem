@@ -3,6 +3,7 @@
 
 /bin/sh
 /bin/bash
+/usr/bin/bash
 /bin/zsh
 /usr/bin/zsh
 /bin/dash
