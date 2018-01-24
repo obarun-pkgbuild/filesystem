@@ -2,9 +2,11 @@
 # See shells(5) for details.
 
 /bin/sh
+/usr/bin/sh
 /bin/bash
 /usr/bin/bash
 /bin/zsh
 /usr/bin/zsh
 /bin/dash
+/usr/bin/dash
 /usr/bin/git-shell
