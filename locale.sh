@@ -24,3 +24,4 @@ export LANG
 [ -n "$LC_TELEPHONE" ]      && export LC_TELEPHONE
 [ -n "$LC_MEASUREMENT" ]    && export LC_MEASUREMENT
 [ -n "$LC_IDENTIFICATION" ] && export LC_IDENTIFICATION
+[ -n "$LANGUAGE" ]			&& export LANGUAGE

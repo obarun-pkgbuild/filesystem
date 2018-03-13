@@ -4,8 +4,8 @@
 
 
 pkgname=filesystem
-pkgver=2017.09
-pkgrel=7
+pkgver=2018.1
+pkgrel=3
 pkgdesc='Base Obarun filesystem'
 arch=(x86_64)
 license=('GPL')
@@ -29,17 +29,17 @@ md5sums=('0672783048ee312d2fc768402fdb3488'
          '4c8ed1804d6ff26714530dd43341b7a1'
          '4d378eac859ef2ed1520971b91ace639'
          '5deb9f890a4d08a245e9752ede77271e'
-         '71ed98c52e11ada1f936ac8cb14eecd9'
+         'a9cabd3090a240bafbb05ce443d991df'
          'd41d8cd98f00b204e9800998ecf8427e'
          '9d858853fd10bb178dd8d09553302a7c'
          '4b1ede9239a8f606090ad2c8462771e2'
          'd49e3834aa82c71f71f058f23467bd6f'
-         '244eb036554c7e33cd836b1c1b38e2e8'
+         'cf6d37fa25ed367fc85b4a04e868352e'
          '1e025adcb3b94399bc74858440453501'
          'f04bcb2803afc4dcb95670fe87343b4d'
          '1e867e07ad9a04f40fa9e5e4aa1f1624'
-         'a53aedae9c5f6bcf624e3a23d85b3419'
-         'e0a0b6f1ef4f31d8c7b03ce751c45d75'
+         '6e0cf9e2ec97a424dfb11d41d2ef3c91'
+         '973402ebe4c81b05628a30de3e393084'
          '0267a3a463f35eec8a31f40a720dfd86'
          'a8a962370cd0128465d514e6a1f74130')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
@@ -73,8 +73,9 @@ package() {
 		install -m600 "$srcdir"/$f etc/
 		install -m600 "$srcdir"/$f usr/share/factory/etc/
 	done
-	touch etc/obarun-release
 	install -D -m644 "$srcdir"/modprobe.d.usb-load-ehci-first usr/lib/modprobe.d/usb-load-ehci-first.conf
+	
+	touch etc/obarun-release
 	install -m755 "$srcdir"/locale.sh etc/profile.d/locale.sh
 	install -Dm644 "$srcdir"/os-release usr/lib/os-release
 
