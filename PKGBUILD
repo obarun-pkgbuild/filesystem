@@ -5,7 +5,7 @@
 
 pkgname=filesystem
 pkgver=2018.4
-pkgrel=1
+pkgrel=2
 pkgdesc='Base Obarun filesystem'
 arch=(x86_64)
 license=('GPL')
