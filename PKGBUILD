@@ -75,7 +75,7 @@ package() {
 	done
 	install -D -m644 "$srcdir"/modprobe.d.usb-load-ehci-first usr/lib/modprobe.d/usb-load-ehci-first.conf
 	
-	touch etc/obarun-release
+	#touch etc/obarun-release
 	install -m755 "$srcdir"/locale.sh etc/profile.d/locale.sh
 	install -Dm644 "$srcdir"/os-release usr/lib/os-release
 
